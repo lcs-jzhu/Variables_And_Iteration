@@ -41,10 +41,7 @@ let canvas = Canvas(width: 500, height: 500)
 //
 //
 //}
-canvas.fillColor = Color.white
-canvas.borderColor = Color.black
-canvas.drawEllipse(centreX: 0, centreY: 250, width: 500, height: 500)
-canvas.drawEllipse(centreX: 500, centreY: 250, width: 500, height: 500)
+
 
 canvas.drawLine(fromX: 0, fromY: 500, toX: 150, toY: 350, lineWidth: 3)
 canvas.drawLine(fromX: 350, fromY: 350, toX: 500, toY: 500, lineWidth: 3)
